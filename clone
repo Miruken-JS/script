@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#
+
+source repos
+
+echo Cloning repositories
+
+for repo in ${repos[@]};
+do
+    echo $repo
+    git clone $repo
+done
+
+echo ...repositories cloned

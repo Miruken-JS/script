@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#
+
+repos=(
+    git@github.com:miruken/angular.git
+    git@github.com:miruken/bootstrap.git
+    git@github.com:miruken/callback.git
+    git@github.com:miruken/context.git
+    git@github.com:miruken/core.git
+    git@github.com:miruken/demo-majorLeagueMiruken.git
+    git@github.com:miruken/error.git
+    git@github.com:miruken/ioc.git
+    git@github.com:miruken/map.git
+    git@github.com:miruken/mvc.git
+    git@github.com:miruken/tools.git
+    git@github.com:miruken/validate.git
+)

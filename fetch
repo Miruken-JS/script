@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+#
+
+repos=(
+    angular
+    bootstrap
+    callback
+    context
+    core
+    demo-majorLeagueMiruken
+    error
+    ioc
+    map
+    mvc
+    tools
+    validate
+)
+
+echo fetching...
+for repo in ${repos[@]};
+do
+    (echo $repo && cd "$repo" && git fetch --prune)
+done
+
+echo ...done
