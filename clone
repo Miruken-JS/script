@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 
-source repos
+source script/repos
 
 echo Cloning repositories
 

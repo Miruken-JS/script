@@ -2,16 +2,16 @@
 #
 
 repos=(
-    git@github.com:miruken/angular.git
-    git@github.com:miruken/bootstrap.git
-    git@github.com:miruken/callback.git
-    git@github.com:miruken/context.git
-    git@github.com:miruken/core.git
-    git@github.com:miruken/demo-majorLeagueMiruken.git
-    git@github.com:miruken/error.git
-    git@github.com:miruken/ioc.git
-    git@github.com:miruken/map.git
-    git@github.com:miruken/mvc.git
-    git@github.com:miruken/tools.git
-    git@github.com:miruken/validate.git
+    git@github.com:miruken-js/angular.git
+    git@github.com:miruken-js/bootstrap.git
+    git@github.com:miruken-js/callback.git
+    git@github.com:miruken-js/context.git
+    git@github.com:miruken-js/core.git
+    git@github.com:miruken-js/demo-majorLeagueMiruken.git
+    git@github.com:miruken-js/error.git
+    git@github.com:miruken-js/ioc.git
+    git@github.com:miruken-js/map.git
+    git@github.com:miruken-js/mvc.git
+    git@github.com:miruken-js/tools.git
+    git@github.com:miruken-js/validate.git
 )
