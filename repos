@@ -13,7 +13,7 @@ repos=(
     ioc
     map
     mvc
-    registry
-    tools
+    #registry
+    #tools
     validate
 )
