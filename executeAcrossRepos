@@ -2,15 +2,14 @@
 #
 
 source script/repos
-command="$1 $2 $3 $4 $5 $6 $7 $8 $9"
-
+command="$@"
 printf "\nExecuting $command across all repos \n"
 
 for repo in ${repos[@]};
 do
     printf "\n******** $repo ********\n"
     cd $repo
-    $command
+    "$@"
     cd ../
 done
 
