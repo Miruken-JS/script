@@ -1,4 +1,0 @@
-
-cd core
-npm unlink
-jspm install --unlink npm:miruken-core 
